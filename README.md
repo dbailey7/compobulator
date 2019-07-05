@@ -15,9 +15,13 @@ When the ListView links are clicked on, nothing is displayed.  No error messages
 The project's folder structure is as follows:
 
 • compobulator_container folder
+
 • • compobulator_project folder
+
     manage.py
+    
 • • • compobulator_app folder
+
       __init__.py
       admin.py
       apps.py
