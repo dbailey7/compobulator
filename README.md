@@ -1,8 +1,19 @@
 # compobulator
-This Django project (compobulator_project) has an app (compobulator_app), a couple models (Mp_archetype, Mp_Element), a TemplateView (IndexView), a couple ListViews (ArchetypeListView, ElementListView), a couple DetailViews (ArchetypeDetailView, ElementDetailView) and a couple forms (mp_archetype_form_view, mp_element_form_view).
-The forms create some data.  The ListVews list the data created via the forms.  And the DetailViews are "supposed" to display the detail records when the links in the ListViews are clicked on, but that's not happening.
+
+This Django project (compobulator_project) has an app (compobulator_app), a couple models (Mp_archetype, 
+Mp_Element), a TemplateView (IndexView), a couple ListViews (ArchetypeListView, ElementListView), a couple 
+DetailViews (ArchetypeDetailView, ElementDetailView) and a couple forms (mp_archetype_form_view, 
+mp_element_form_view).  
+
+The forms create some data.  The ListVews list the data created via the forms.  
+
+And the DetailViews are "supposed" to display the detail records when the links in the ListViews are clicked on, 
+but that's not happening.
+
 When the ListView links are clicked on, nothing is displayed.  No error messages are displayed, either.
-My folder structure is as follows:
+
+The project's folder structure is as follows:
+
 • compobulator_container folder
 • • compobulator_project folder
     manage.py
