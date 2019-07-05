@@ -14,7 +14,7 @@ When the ListView links are clicked on, nothing is displayed.  No error messages
 
 The project's folder structure is as follows:
 
-• compobulator_container folder
+• compobulator folder
 
 • • compobulator_project folder
 
