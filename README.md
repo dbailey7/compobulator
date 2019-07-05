@@ -30,13 +30,18 @@ The project's folder structure is as follows:
       tests.py
       urls.py
       views.py
+      
 • • • • migrations folder
+
         __init__.py
         0001_initial.py
         0002_mp_element_archetypeid.py
         0003_auto_20190627_0808.py
+        
 • • • • templates folder
+
 • • • • • compobulator_app folder
+
           compobulator_app_base.html
           mp_archetype_detail.html
           mp_archetype_form.html
@@ -44,24 +49,40 @@ The project's folder structure is as follows:
           mp_element_detail.html
           mp_element_form.html
           mp_element_list.html
+          
 • • • compobulator_project folder
+
       __init__.py
       settings.py
       urls.py
       wsgi.py
+      
 • • • media folder
+
 • • • static folder
+
 • • • templates folder
+
 • • • • compobulator_app
+
         base.html
         undex.html
+        
 • • static folder
+
 • • • admin folder
+
 • • • css
+
       meedstyles.css
+      
 • • • customthemes
+
 • • • • css
+
         meedmaster.css
+        
 • • • images
+
       favicon.ico
       meedlogo.png
