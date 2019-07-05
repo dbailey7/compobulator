@@ -1,0 +1,11 @@
+{%  extends "compobulator_app/compobulator_app_base.html" %}
+{% block body_block %}
+  <h2>Here is the list of elements!</h2>
+    <ol>
+      {% for mpe in elvcon_list %}
+        <h2><li><a href="{{ mpe.id }}">{{ mpe.fldname }}</a></li></h2>
+      {% empty %}
+        <h4><li>No Elements created as yet.</li></h4>
+      {% endfor %}
+    </ol>
+{% endblock %}
