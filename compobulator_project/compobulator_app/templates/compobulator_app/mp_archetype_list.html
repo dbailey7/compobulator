@@ -1,0 +1,13 @@
+{%  extends "compobulator_app/compobulator_app_base.html" %}
+{% block body_block %}
+  <div class="jumbotron">
+    <h2>Here is the list of archetypes!</h2>
+    <ol>
+      {% for mpa in alvcon_list %}
+        <h2><li><a href="{{ mpa.id }}">{{ mpa.id1 }}</a></li></h2>
+      {% empty %}
+        <li>No Archetypes created as yet.</li>
+      {% endfor %}
+    </ol>
+  </div>
+{% endblock %}
